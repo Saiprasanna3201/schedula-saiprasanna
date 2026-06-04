@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head><title>Schedula ER Diagram</title></head>
+<body>
+<h1>Schedula - ER Diagram</h1>
+<h2>Entities</h2>
+<ul>
+  <li>User</li>
+  <li>Patient</li>
+  <li>Doctor</li>
+  <li>Slot</li>
+  <li>Appointment</li>
+  <li>Payment</li>
+  <li>Notification</li>
+</ul>
+<h2>Relationships</h2>
+<ul>
+  <li>User ↔ Patient (1:1)</li>
+  <li>User ↔ Doctor (1:1)</li>
+  <li>Doctor ↔ Slot (1:N)</li>
+  <li>Doctor ↔ Appointment (1:N)</li>
+  <li>Patient ↔ Appointment (1:N)</li>
+  <li>Appointment ↔ Payment (1:1)</li>
+  <li>User ↔ Notification (1:N)</li>
+</ul>
+</body>
+</html> 
